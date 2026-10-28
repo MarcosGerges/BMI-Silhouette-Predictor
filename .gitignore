@@ -1,0 +1,28 @@
+# Virtual environments
+BMI/
+.venv/
+venv/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Large dataset tensors and image caches
+train/cached_features_and_images.pt
+train/mask/
+train/mask_clean/
+train/mask_left/
+
+# User webcam photos
+Photos/*.jpg
+!Photos/.gitkeep
+chat_export.txt
